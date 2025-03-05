@@ -13,6 +13,9 @@ class Solution:
         print(one)
         return one
     
+# Dynamic programming space optimized approach
+# O(n) time complexity
+# O(1) space complexity 
 
 
 """ solution = Solution()
