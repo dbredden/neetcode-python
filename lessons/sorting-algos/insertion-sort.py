@@ -1,4 +1,4 @@
-def InsertionSort(arr):
+def insertionSort(arr):
     # Traverse through 1 to len(arr)
     for i in range(1, len(arr)):
         j = i - 1
@@ -11,9 +11,9 @@ def InsertionSort(arr):
     return arr
 
 words = ["apple", "grape", "banana", "clemintime"]
-sorted_words = InsertionSort(words)
+sorted_words = insertionSort(words)
 print(sorted_words)
 
 someNums = [1, 2, 3, 44, 22, 15, 9]
-sorted_nums = InsertionSort(someNums)
+sorted_nums = insertionSort(someNums)
 print(someNums)
