@@ -16,6 +16,23 @@ def triplet_sum(nums: List[int]) -> List[List[int]]:
         for pair in pairs:
             triplets.append([nums[i]] + pair)
 
+    return triplets
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 def pair_sum_sorted_all_pairs(nums: List[int], start: int, target: int) -> List[int]:
     pairs = []
